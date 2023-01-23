@@ -30,7 +30,7 @@
 - [❓ FAQ](#faq)
 - [📝 License](#license)
 
-# 📖 Protoje Concert - Capstone Micorverse Project Module 1<a name="about-project"></a>
+# 📖 Awesome Books - Micorverse Project Module 2<a name="about-project"></a>
 
 > A page to add book titles and authors developed in JS Modules and SPA..
 
@@ -53,7 +53,7 @@
 ### Key Features <a name="key-features"></a>
 
 - **Single Page Application. ->>HTML Interface with CSS>>**
-- **JavaScript ->> Modules ->> Luxon Dependecy** 
+- **JavaScript ->> Modules ->> Luxon Dependecy**
 - **Display list of books>> ->>Localstorage management>> ->>Show Current Date ->>Switch between sections dinamically>>**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

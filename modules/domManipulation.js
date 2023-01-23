@@ -1,6 +1,6 @@
 import BookCollection from './bookCollection.js';
 
-export default function displayBooks() {
+const displayBooks = () => {
   const newBooksCollection = new BookCollection();
   const div = document.querySelector('#bookListContainer');
   const ul = document.querySelector('#ulBookList');
@@ -62,4 +62,6 @@ export default function displayBooks() {
       newBooksCollection.removeBook(index);
     });
   });
-}
+};
+
+export default displayBooks;

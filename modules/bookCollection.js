@@ -3,7 +3,7 @@ export default class BookCollection {
     this.books = [];
   }
 
-  addBook(cTitle, cAuthor) {
+  addBook = (cTitle, cAuthor) => {
     const newBook = {
       title: cTitle,
       author: cAuthor,
@@ -12,18 +12,16 @@ export default class BookCollection {
     localStorage.setItem('localStorageBooks', JSON.stringify(this.books));
   }
 
-  removeBook(index) {
+  removeBook = (index) => {
     const result = this.books.filter((book, i) => i !== index);
     this.books = result;
     localStorage.setItem('localStorageBooks', JSON.stringify(this.books));
     window.location.reload();
   }
 
-  getBooks() {
-    return this.books;
-  }
+  getBooks = () => this.books;
 
-  setBooks(books) {
+  setBooks = (books) => {
     this.books = books;
   }
 }
